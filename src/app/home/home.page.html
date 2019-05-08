@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Ionic ngx pipes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	<p>{{'This is an example sentence' | shorten: 10: '...' }}</p>
+
+	<p>{{'foo bar' | ucwords}}</p>
+
+	<p class="ion-text-uppercase">more example text</p>
+
+	<ion-item *ngFor="let item of arr | initial: 1">
+		{{ item }}	
+	</ion-item>
+	<br>
+	<ion-item *ngFor="let item of arr | reverse">
+		{{ item }}	
+	</ion-item>
+
+	<p>{{ myObj | keys }}</p> <!--name,age-->
+	<p>{{ myObj | values }}</p> <!--Andrew,49-->
+
+	<p>Today is {{ today | date }}</p>
+
+	<ion-button (click)="callPipe()">Call Pipe</ion-button>
+
+</ion-content>
