@@ -25,19 +25,21 @@ This project uses [ngx pipes](https://www.npmjs.com/package/ngx-pipes) to modify
 
 ## Technologies
 
-* [Ionic angular framework/ v4.1.0](https://ionicframework.com/)
+* [Ionic framework/ v5.6.1](https://ionicframework.com/)
 
-* [Angular CLI v7.3.8](https://github.com/angular/angular-cli)
+* [Angular CLI v8.0.1](https://cli.angular.io/)
 
-* [Angular framework v7.2.2](https://angular.io/)
+* [Angular framework v8.0.0](https://angular.io/)
 
-* [ngx pipes v2.4.7](https://www.npmjs.com/package/ngx-pipes)
+* [Ionic/angular v4.4.2](https://www.npmjs.com/package/ionic-angular)
+
+* [ngx pipes v2.5.0](https://www.npmjs.com/package/ngx-pipes)
 
 * [Angular Augery Chrome Extension v1.2.11](https://augury.rangle.io/) useful for debugging.
 
 ## Setup
 
-* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ionic serve` for a dev server. Navigate to `http://localhost:8100/`. The app will automatically reload if you change any of the source files.
 
 ## Code Examples
 
@@ -75,4 +77,4 @@ callPipe() {
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
