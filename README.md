@@ -17,7 +17,7 @@ This project uses [ngx pipes](https://www.npmjs.com/package/ngx-pipes) to modify
 
 ## General info
 
-"The [ngx pipes](https://www.npmjs.com/package/ngx-pipes) can be used to modify strings, arrays, objects and use math and boolean operations.
+"The [ngx pipes](https://www.npmjs.com/package/ngx-pipes) can be used to modify strings, arrays, objects and use math and boolean operations. Also has a 'time ago' pipe but check if it only works with moment.js or if a lighter package like day.js can be used. It has only 1 dependancy. You only import the pipes you use, not a whole library.
 
 ## Screenshots
 
@@ -26,15 +26,10 @@ This project uses [ngx pipes](https://www.npmjs.com/package/ngx-pipes) to modify
 ## Technologies
 
 * [Ionic framework/ v5.6.1](https://ionicframework.com/)
-
 * [Angular CLI v8.0.1](https://cli.angular.io/)
-
 * [Angular framework v8.0.0](https://angular.io/)
-
 * [Ionic/angular v4.4.2](https://www.npmjs.com/package/ionic-angular)
-
 * [ngx pipes v2.5.0](https://www.npmjs.com/package/ngx-pipes)
-
 * [Angular Augery Chrome Extension v1.2.11](https://augury.rangle.io/) useful for debugging.
 
 ## Setup

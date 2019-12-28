@@ -9,11 +9,15 @@ import { DatePipe} from '@angular/common';
 })
 export class HomePage {
 
-	arr = ['First item', 'Second item', 'Third item'];
+	arr = [
+		'First item',
+		'Second item',
+		'Third item'
+	];
 
 	myObj = {
 		name: 'Andrew',
-		age: 49
+		age: 50
 	};
 
 	numbers = [2, 15, 6, 42, 99];
@@ -24,6 +28,7 @@ export class HomePage {
 
 	}
 
+	// uses ngx maxPipe to return max number in numbers array
 	callPipe() {
 		// this.datePipe.transform(Date);
 		alert(this.maxPipe.transform(this.numbers));
