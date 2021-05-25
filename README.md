@@ -1,6 +1,12 @@
 # :zap: Ionic ngx pipes
 
 * This project uses [ngx pipes](https://www.npmjs.com/package/ngx-pipes) to modify the data shown to the user in the html template.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-ngx-pipes?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-ngx-pipes?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-ngx-pipes?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-ngx-pipes?style=plastic)
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -16,6 +22,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -30,7 +37,7 @@
 ## :signal_strength: Technologies
 
 * [Ionic framework/ v5](https://ionicframework.com/)
-* [Angular CLI v11](https://cli.angular.io/)
+* [Angular CLI v12](https://cli.angular.io/)
 * [Angular framework v11](https://angular.io/)
 * [Ionic/angular v5](https://www.npmjs.com/package/ionic-angular)
 * [ngx pipes v2](https://www.npmjs.com/package/ngx-pipes)
@@ -73,6 +80,10 @@ callPipe() {
 
 * [Ionic Academy: How to Simplify your Ionic 4 App with ngx-Pipes](https://www.youtube.com/watch?v=TaoO9-kkUDY).
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
