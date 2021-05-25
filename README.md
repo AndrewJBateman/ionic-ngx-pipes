@@ -73,7 +73,7 @@ callPipe() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
+* Status: Working. Updated may 2021.
 * To-Do: Try other pipes, especially the Math pipes.
 
 ## :clap: Inspiration
