@@ -11,7 +11,7 @@ export class HomePage {
 	arr = ["First item", "Second item", "Third item"];
 	myObj = {
 		name: "Andrew",
-		age: 100,
+		age: 20,
 	};
 	numbers = [2, 15, 6, 42, 99];
 	today: number = Date.now();
