@@ -27,7 +27,7 @@
 
 ## :books: General info
 
-* "The [ngx pipes](https://www.npmjs.com/package/ngx-pipes) can be used to modify strings, arrays, objects and use math and boolean operations.
+* The [ngx pipes](https://www.npmjs.com/package/ngx-pipes) can be used to modify strings, arrays, objects and use math and boolean operations.
 * Also has a 'time ago' pipe but check if it only works with moment.js or if a lighter package like day.js can be used. It has only 1 dependancy. You only import the pipes you use, not a whole library.
 
 ## :camera: Screenshots
@@ -36,15 +36,15 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic framework/ v5](https://ionicframework.com/)
-* [Angular CLI v12](https://cli.angular.io/)
-* [Angular framework v11](https://angular.io/)
-* [Ionic/angular v5](https://www.npmjs.com/package/ionic-angular)
+* [Ionic framework/ v6](https://ionicframework.com/)
+* [Angular framework v13](https://angular.io/)
+* [Ionic/angular v6](https://www.npmjs.com/package/ionic-angular)
 * [ngx pipes v2](https://www.npmjs.com/package/ngx-pipes)
 * [Angular Augury Chrome Extension v1](https://augury.rangle.io/) useful for debugging.
 
 ## :floppy_disk: Setup
 
+* `npm i` to install dependencies
 * Run `ionic serve` for a dev server. Navigate to `http://localhost:8100/`. The app will automatically reload if you change any of the source files.
 
 ## :computer: Code Examples
@@ -73,7 +73,7 @@ callPipe() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated may 2021.
+* Status: Working.
 * To-Do: Try other pipes, especially the Math pipes.
 
 ## :clap: Inspiration
