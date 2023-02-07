@@ -37,9 +37,9 @@
 ## :signal_strength: Technologies
 
 * [Ionic framework/ v6](https://ionicframework.com/)
-* [Angular framework v13](https://angular.io/)
+* [Angular framework v15](https://angular.io/)
 * [Ionic/angular v6](https://www.npmjs.com/package/ionic-angular)
-* [ngx pipes v2](https://www.npmjs.com/package/ngx-pipes)
+* [ngx pipes v3](https://www.npmjs.com/package/ngx-pipes)
 * [Angular Augury Chrome Extension v1](https://augury.rangle.io/) useful for debugging.
 
 ## :floppy_disk: Setup
