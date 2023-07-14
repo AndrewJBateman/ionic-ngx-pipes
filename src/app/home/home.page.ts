@@ -14,6 +14,7 @@ export class HomePage {
 		age: 20,
 	};
 	numbers = [2, 15, 6, 42, 99];
+	numberSquared = 9;
 	today: number = Date.now();
 	items = [
 		1,

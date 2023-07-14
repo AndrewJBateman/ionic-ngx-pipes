@@ -1,25 +1,26 @@
 <ion-header>
-	<ion-toolbar color="primary">
-		<ion-title> Ionic ngx pipes </ion-title>
-	</ion-toolbar>
+  <ion-toolbar color="primary">
+    <ion-title> Ionic ngx pipes </ion-title>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-	<ion-card>
-		<!--ngx pipe: shorten and option to add suffix-->
-		<p>{{'This is an example sentence' | shorten: 10: '...' }}</p>
-		<!--ngx pipe: upper case words-->
-		<p>{{'foo bar' | ucwords}}</p>
-		<p class="ion-text-uppercase">more example text</p>
-		<p>{{ myObj | keys }}</p>
-		<!--name,age-->
-		<p>{{ myObj | values }}</p>
-		<!--Andrew,49-->
-		<p>Today is {{ today | date }}</p>
-		<p>Flattened items: {{ items | flatten }}</p>
-		<ion-item *ngFor="let item of arr | initial: 1"> {{ item }} </ion-item>
-		<br />
-		<ion-item *ngFor="let item of arr | reverse"> {{ item }} </ion-item>
-		<ion-button color="tertiary" (click)="callPipe()">Call Pipe</ion-button>
-	</ion-card>
+  <ion-card>
+    <!--ngx pipe: shorten and option to add suffix-->
+    <p>{{'This is an example sentence' | shorten: 20: '...' }}</p>
+    <!--ngx pipe: upper case words-->
+    <p>{{'foo bar' | ucwords}}</p>
+    <p class="ion-text-uppercase">more example text</p>
+    <p>{{ myObj | keys }}</p>
+    <!--name,age-->
+    <p>{{ myObj | values }}</p>
+    <!--Andrew,49-->
+    <p>Today is {{ today | date }}</p>
+    <p>Flattened items: {{ items | flatten }}</p>
+    <p>The quare root of {{ numberSquared }} is {{numberSquared | sqrt }}</p>
+    <ion-item *ngFor="let item of arr | initial: 1"> {{ item }} </ion-item>
+    <br />
+    <ion-item *ngFor="let item of arr | reverse"> {{ item }} </ion-item>
+    <ion-button color="tertiary" (click)="callPipe()">Call Pipe</ion-button>
+  </ion-card>
 </ion-content>
